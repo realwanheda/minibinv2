@@ -1,0 +1,56 @@
+@import url(variables.css);
+@import url(fonts.css);
+:root {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--color-dark);
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: var(--color-dark);
+}
+
+/* For Firefox */
+::-moz-scrollbar {
+  width: 10px;
+}
+
+::-moz-scrollbar-thumb {
+  border-radius: 10px;
+  background: var(--color-dark);
+}
+
+/* For IE and Edge */
+::-ms-scrollbar {
+  width: 10px;
+}
+
+::-ms-scrollbar-thumb {
+  border-radius: 10px;
+  background: var(--color-dark);
+}
